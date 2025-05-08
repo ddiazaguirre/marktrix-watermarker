@@ -2,7 +2,9 @@
 
 A simple desktop application (for macOS and Windows) to quickly apply a watermark to a batch of images.
 
-![Screenshot Placeholder - Add one later if desired]()
+![Starting Interface of Marktrix Watermarker](./screenshots/marktrix-start.jpg)
+![Main Interface of Marktrix Watermarker](./screenshots/marktrix-main-interface.jpg)
+![Example Output](./screenshots/marktrix-example-output.jpg)
 
 ## Features
 
@@ -75,16 +77,6 @@ If you prefer to run directly from the source code:
 
     ```bash
     source venv/bin/activate
-    ```
-
-    # Windows
-
-    ```bash
-    python -m venv venv
-    ```
-
-    ```bash
-    venv\Scripts\activate
     ```
 
 5.  Install dependencies:
