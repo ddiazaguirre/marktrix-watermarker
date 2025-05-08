@@ -50,20 +50,43 @@ If you prefer to run directly from the source code:
 2.  Clone this repository: `git clone https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories`
 3.  Navigate into the project directory: `cd marktrix-watermarker` (or your repo name)
 4.  Create and activate a virtual environment:
+
     # macOS/Linux
+
     ```bash
     python3 -m venv venv
+
     ```
+
     ```bash
     source venv/bin/activate
     ```
+
     # Windows
+
     ```bash
     python -m venv venv
     ```
+
+    ```bash
+    venv\Scripts\activate
+
+    ```
+
+    ```bash
+    source venv/bin/activate
+    ```
+
+    # Windows
+
+    ```bash
+    python -m venv venv
+    ```
+
     ```bash
     venv\Scripts\activate
     ```
+
 5.  Install dependencies:
     ```bash
     pip install -r requirements.txt
