@@ -49,7 +49,7 @@ You can download pre-built versions for macOS and Windows from the **[Releases P
 If you prefer to run directly from the source code:
 
 1.  Ensure you have Python 3 installed.
-2.  Clone this repository: `git clone https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories`
+2.  Clone this repository: `git clone https://github.com/ddiazaguirre/marktrix-watermarker.git`
 3.  Navigate into the project directory: `cd marktrix-watermarker` (or your repo name)
 4.  Create and activate a virtual environment:
 
