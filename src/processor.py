@@ -48,7 +48,8 @@ def apply_watermark(image_path, watermark_image_rgba, output_path, position, qua
         # Fixes Pillow misreading EXIF orientation data.
         base_image = ImageOps.exif_transpose(base_image_opened)
         # Stores original format
-        original_format = base_image.format.upper() if base_image.format else None
+        original_format = base_image_opened.format.upper(
+        ) if base_image_opened.format else None
         print(f"   Original format: {original_format}")  # Log format
 
         # Prepares base image for pasting RGBA watermark
