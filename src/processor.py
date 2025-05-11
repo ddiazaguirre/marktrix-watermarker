@@ -43,7 +43,7 @@ def apply_watermark(image_path, watermark_image_rgba, output_path, position, qua
     """
     try:
         # Open the base image
-        base_image = Image.open(image_path)
+        base_image_opened = Image.open(image_path)
 
         # Fixes Pillow misreading EXIF orientation data.
         base_image = ImageOps.exif_transpose(base_image_opened)
